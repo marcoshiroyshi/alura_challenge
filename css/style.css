@@ -1,51 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
 
 }
 
 body {
-    font-family: 'Raleway'
+    font-family: 'Raleway', sans-serif;
 }
 
 .header-page {
-    background-color: #2E7BA2;
     display: flex;
-    justify-content: space-between;
-    color: white;
     align-items: center;
-    padding: 0 120px;
-    height: 100px;
-    
+    justify-content: space-between;
+    background-color: #2E7BA2;
+    color: white;
+    padding: 10px 100px;    
 }
 
-.header-menu ul {
+.header-menu ul{
     display: flex;
-    list-style: none;
-    color: white;
-    text-decoration: none;    
-    margin: 0 40px;
-    
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header-menu li {
-    margin: 0 20px;
-    
+    list-style: none;
+    margin: 10px 10px;
 }
 
 .header-menu a {
+    list-style: none;
     text-decoration: none;
     color: white;
-    font-family: 'Raleway';
 }
 
-.section-principal {
-    background-image: url(../img/banner.png);
+.section-boasvindas {
+    background-image: url(../img/banner_desktop.png);    
+    justify-content: center;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    height: 300vh;
+}
+
+.section-ingresso {
+    height: 30%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 0 120px;    
+    
+}
+
+.div-left {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin-bottom: 150px;
 }
+
+.div-right {
+    margin-left: 50px;    
+    height: 65%;
+    width: 40%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.div-right h2 {
+    color: #444444;
+    font-weight: 700;
+}
+
+.div-right h3 {
+    color: #444444;
+    font-weight: 300;
+    margin: 30px 0;
+    line-height: 40px;
+
+}
+
+
+.button {
+    background-color: #2E7BA2;
+    color: white;
+    box-shadow: 4px 4px 0px #444444;
+    border-radius: 10%;
+    width: 250px;
+    height: 100px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px 0;
+    font-weight: 700;
+
+}
+
+.ticket {
+    margin: 0 10px;
+}
+
+.section-line-up {
+    text-align: center;
+}
+
+.section-line-up-title {
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Calistoga';
+}
+
+.container-sabado, .container-domingo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    background: #DF9010;
+    width: 390px;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.line {
+    width: 500px;
+    border: 1px solid #DF9010;
+    height: 0;
+    margin: 0 50px;
+}
+
+.bandas {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.bandas-titulo {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.bandas-linha1, .bandas-linha2, .bandas-linha3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    
+}
+
+h6 {
+    margin: 30px 30px;
+    font-weight: 800;
+    font-size: 40px;
+    
+ }
+
+ .imagem {
+    height: 100%;
+ }
