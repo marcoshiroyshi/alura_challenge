@@ -28,7 +28,7 @@ A aplicação consiste em um site de venda de ingresso para o evento Coachella, 
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/marcoshiroyshi/alura_challenge.git
 
 
 
