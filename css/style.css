@@ -40,15 +40,19 @@ body {
 }
 
 .section-boasvindas {
-    background-image: url(../img/banner_desktop.png);    
+    background-image: url(../img/1\ -\ Banner\ -Homepage.png);    
     justify-content: center;
     height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
-main {
+body {
     background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     height: 300vh;
 }
@@ -202,4 +206,29 @@ main {
  .left-footer, .right-footer {
     width: 50%;
     padding: 0 160px;
+ }
+
+ @media (max-width: 768px ) {
+    body {
+        width: 100%;
+        height: 300vh;
+    }
+
+    .header-page {
+        display: flex;
+        flex-direction: column;       
+        
+    }
+
+    .section-boasvindas {
+        background-size: cover;
+        width: 100%;
+        height: 33vh;
+    }      
+    
+    .section-ingresso {
+        display: flex;
+        flex-direction: column;
+    }
+
  }
